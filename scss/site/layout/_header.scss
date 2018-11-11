@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    color: #707070;
+    height: 100vh;
+    position: relative;
+    .headerBg-block{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+    .headerBg{
+        height: 130%;
+        width: 100%;
+        // position: absolute;
+        z-index: -1;
+        background-color: rgba($color: #FCDFDF, $alpha: 0.5);
+    }
+    .header__content{
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        text-align: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .header__logo{
+        width: 150px;
+        height: 150px;
+        margin: 5% 0;
+    }
+    .header__title{
+        display: block;
+    }
+    .header__menu{
+        font-size: 12px;
+        margin: 20px;
+        a{
+            margin: 0 10px;
+            color: #707070;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
