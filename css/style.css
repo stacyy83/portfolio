@@ -63,19 +63,15 @@ a {
 .work {
   width: 100%; }
   .work .work__list {
-    display: table;
-    width: 100%;
     margin: 100px 0; }
-  .work .work__list-row {
-    display: table-row; }
   .work .work__item {
+    padding: 10px; }
+  .work .work__item-content {
+    padding: 40% 0;
     background-color: #F8F8F8;
-    height: 300px;
-    border: 1px solid #707070;
-    display: table-cell;
-    display: inline-block;
-    width: 30%;
-    margin: 10px; }
+    text-align: center; }
+    .work .work__item-content:hover {
+      background-color: rgba(163, 163, 163, 0.493); }
 
 .about {
   width: 100%; }
