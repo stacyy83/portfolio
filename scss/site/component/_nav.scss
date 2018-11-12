@@ -1,0 +1,13 @@
+.nav{
+    .nav__menu{
+        padding: 20px 0;
+    }
+    .nav__menu-item{
+        color: #707070;
+        margin: 0 10px;
+        font-size: 12px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

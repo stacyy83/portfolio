@@ -1,0 +1,27 @@
+.content{
+    .content__section{
+        padding: 20px 0;
+        font-weight: 100;
+        h2{
+            margin: 50px 0 40px;
+            font-size: 36px;
+            font-weight: 100;
+            color: rgba($color: #707070, $alpha: 0.6);
+        }
+        p{
+            color: #707070;
+            // font-weight: 100;
+            margin-bottom: 50px;
+        }
+        ol{
+            margin: 0 0 30px 50px;
+            li{
+                color: #707070;
+                margin: 5px 0;
+            }
+        }
+        &--color{
+            // background-color: rgba($color: #f7f7f7, $alpha: 0.2);
+        }
+    }
+}
