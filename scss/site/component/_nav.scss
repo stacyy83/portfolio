@@ -1,4 +1,9 @@
 .nav{
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 5px 20px #f7f7f7;
     .nav__menu{
         padding: 20px 0;
     }

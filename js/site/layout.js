@@ -1,6 +1,6 @@
 $(function(){
     navScroll();
-
+    // initScrollMagic();
     // scroll
     function navScroll(){
         $('.nav-work').click(function(){
@@ -10,5 +10,7 @@ $(function(){
             $('html,body').animate({scrollTop:$('#about').offset().top}, 500);
         });
     }
+    //headroom套件
+    $("#nav").headroom();
 
 });
