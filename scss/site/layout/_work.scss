@@ -22,14 +22,31 @@
         margin: 100px 0;
     }
     .work__item{
-        padding: 10px
+        padding: 10px;
+        position: relative;
+    }
+    .work__item-cover{
+        position: absolute;
+        width: 95%;
+        height: 95%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        &:hover{
+            background-color: rgba(163, 163, 163, 0.493);
+        }
     }
     .work__item-content{
         padding: 40% 0;
-        background-color: #F8F8F8;
+        // background-color: #F8F8F8;
         text-align: center;
-        &:hover{
-            background-color: rgba(163, 163, 163, 0.493);
+        &--i{
+            background-image: url(../img/illustrate/project3.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
         }
     }
 }

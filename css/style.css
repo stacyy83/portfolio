@@ -34,9 +34,16 @@ a {
   .nav .nav__menu-item {
     color: #707070;
     margin: 0 10px;
-    font-size: 12px; }
+    font-size: 12px;
+    -webkit-transition-duration: .4s;
+    -o-transition-duration: .4s;
+    transition-duration: .4s; }
     .nav .nav__menu-item:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+      font-size: 14px;
+      -webkit-transition-duration: .4s;
+      -o-transition-duration: .4s;
+      transition-duration: .4s; }
 
 .header-sub {
   text-align: center;
@@ -44,7 +51,8 @@ a {
   padding-top: 62px; }
   .header-sub .header-sub__title {
     padding: 100px 0;
-    font-style: italic; }
+    font-style: italic;
+    text-transform: uppercase; }
 
 .footer {
   width: 100%;
@@ -67,6 +75,24 @@ a {
     .content .content__section ol li {
       color: #707070;
       margin: 5px 0; }
+
+.content ._i-img {
+  max-width: 610px;
+  max-height: 600px; }
+
+.content ._i-img2 {
+  max-width: 50%;
+  height: 70%;
+  margin: 50px 0; }
+
+.content ._i-img3 {
+  display: inline-block;
+  max-width: 500px;
+  max-height: 730px;
+  margin: 0 10px; }
+
+.content ._i-p {
+  line-height: 26px; }
 
 .header {
   width: 100%;
@@ -106,22 +132,43 @@ a {
     margin: 20px; }
     .header .header__menu a {
       margin: 0 10px;
-      color: #707070; }
+      color: #707070;
+      -webkit-transition-duration: .4s;
+      -o-transition-duration: .4s;
+      transition-duration: .4s; }
       .header .header__menu a:hover {
-        text-decoration: underline; }
+        text-decoration: underline;
+        font-size: 14px;
+        -webkit-transition-duration: .4s;
+        -o-transition-duration: .4s;
+        transition-duration: .4s; }
 
 .work {
   width: 100%; }
   .work .work__list {
     margin: 100px 0; }
   .work .work__item {
-    padding: 10px; }
+    padding: 10px;
+    position: relative; }
+  .work .work__item-cover {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+    .work .work__item-cover:hover {
+      background-color: rgba(163, 163, 163, 0.493); }
   .work .work__item-content {
     padding: 40% 0;
-    background-color: #F8F8F8;
     text-align: center; }
-    .work .work__item-content:hover {
-      background-color: rgba(163, 163, 163, 0.493); }
+    .work .work__item-content--i {
+      background-image: url(../img/illustrate/project3.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
 
 .about {
   width: 100%;

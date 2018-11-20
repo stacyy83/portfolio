@@ -11,8 +11,11 @@
         color: #707070;
         margin: 0 10px;
         font-size: 12px;
+        transition-duration: .4s;
         &:hover{
             text-decoration: underline;
+            font-size: 14px;
+            transition-duration: .4s;
         }
     }
 }
