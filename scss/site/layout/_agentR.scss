@@ -1,0 +1,22 @@
+.agentR{
+    strong{
+        display: block;
+        font-weight: 400;
+        color: #707070;
+        margin: 20px 0 10px 0;
+    }
+    span{
+        text-decoration: underline;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    ._item-list{
+        p{
+            margin: 5px 0 10px 0;
+        }
+    }
+    ._img-character{
+        max-width: 175px;
+        height: 200px;
+    }
+}
