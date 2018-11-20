@@ -44,7 +44,8 @@ a {
   padding-top: 62px; }
   .header-sub .header-sub__title {
     padding: 100px 0;
-    font-style: italic; }
+    font-style: italic;
+    text-transform: uppercase; }
 
 .footer {
   width: 100%;
