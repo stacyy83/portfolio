@@ -62,7 +62,8 @@ a {
   font-size: 12px;
   font-weight: 200; }
   .footer .footer__content {
-    padding: 25px 0; }
+    padding: 25px 0;
+    margin-top: 30px; }
 
 .content .content__section {
   padding: 20px 0;
@@ -172,6 +173,11 @@ a {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: 50% 50%; }
+    .work .work__item-content--R {
+      background-image: url(../img/agentR/icon.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
 
 .about {
   width: 100%;
@@ -203,6 +209,16 @@ a {
   max-width: 175px;
   height: 200px; }
 
+.agentR ._img-sprite {
+  max-width: 505px;
+  margin-top: 30px; }
+
+.agentR ._img-draft {
+  height: 375px; }
+
+.agentR .agentR__sprite {
+  margin-top: 100px; }
+
 .illustrate ._i-img {
   max-width: 610px;
   max-height: 600px; }
@@ -220,3 +236,6 @@ a {
 
 .illustrate ._i-p {
   line-height: 26px; }
+
+.company a :hover {
+  text-decoration: underline; }

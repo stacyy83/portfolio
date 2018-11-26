@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="nav__menu offset-8 offset-md-10">
-                            <a class="nav__menu-item" href="./index.html">WORK</a>
+                            <a class="nav__menu-item" href="./#work">WORK</a>
                             <a class="nav__menu-item" href="./#about">ABOUT</a>
                         </div>
                     </div>
@@ -37,18 +37,21 @@
         </header>
         <!-- Content -->
         <div class="content agentR">
+            <!-- Overview -->
             <div class="content__section">
                 <div class="container">
                     <h2>Overview</h2>
                     <p>Agent R is a web game that can be controlled by an  app on the smartphone. It allows two players to play and contains Somatosensory interactive technology to control the slope of the board in the game in order to allow the character to consistently move forward.</p>
                 </div>
             </div>
+            <!-- Role -->
             <div class="content__section">
                 <div class="container _line-t">
                     <h2>Role</h2>
                     <p>I had the initial  concept of the Agent R game and designed the main characters in a four-person  team. Moreover,  I additionally  worked as a back-end programmer and with part of the front -end programming, such as the animation of our characters. </p>
                 </div>
             </div>
+            <!-- Motivation -->
             <div class="content__section">
                 <div class="container _line-t">
                     <h2>Motivation</h2>
@@ -59,6 +62,7 @@
                     <p>During that  time, we  were inspired by the web game  entitled Super Sync Sports,  which was created  by Google. It is a web game in which  players can simultaneously enter  the website on a smartphone and computer,  then play the game together by using their own phone in order to control their character within the game.  Furthermore, somatosensory interactive technology is an innovative technology for us. Therefore, we want to collate  these ideas together, thus creating a web game that contains somatosensory interaction.</p>
                 </div>
             </div>
+            <!-- Ideation -->
             <div class="content__section">
                 <div class="container _line-t">
                     <h2>Ideation</h2>
@@ -69,6 +73,7 @@
                     </ol>
                 </div>
             </div>
+            <!-- Game Process -->
             <div class="content__section">
                 <div class="container _line-t">
                     <div class="row">
@@ -87,12 +92,14 @@
                     </div>
                 </div>
             </div>
+            <!-- Instructions for Play -->
             <div class="content__section">
                 <div class="container _line-t">
                     <h2>Instructions for Play</h2>
                     <p class="_mb">Players are required to  control the board rotation between each pillar by controlling the gradient of their phone in order to allow  the game character to continuously  move forward. Since the frame will  consistently move to the left,  if the game character does not  keep moving forward, they will lose their health points when they hit the left edge of the frame. The game is effectively over when the health points become  zero.</p>
                     <p class="_mb">In 1- player mode, when the game is over, it will  reveal how many pillars the player has passed in this game and record the total score. Moreover, players can see the top score and the player’s name  at the end.</p>
                     <p>In 2- player  mode, players can control their character to  gain the coins during the game in order to  purchase special items. Each item has a different effect which can benefit themselves or harm others. Once the game is over, the character whose health points  reach zero will lose the game.</p>
+                    <div>影片放這！</div>
                 </div>
             </div>
             <div class="content__section">
@@ -140,13 +147,45 @@
                             <p>- It will allow the game character to be reborn and continue the game  should they hit the left of the frame, which will end the game.</p>
                         </li>
                     </ul>
+                    <!-- <img class="_img-draft" src="./img/agentR/draft.jpg" alt="draft"> -->
                 </div>
             </div>
+            <!-- Animation -->
             <div class="content__section">
                 <div class="container _line-t">
-                    <h2>Animation</h2>
-                    <p>Using the drawImage method of HTML canvas and JavaScript to make the animation of the game character and items. All objects needed to be calculated precisely for their coordinate positions and the cropping start points, also the cropping of their height and width on canvas.</p>
-                    <p>All the animation in the game uses this css sprite. ( See figure 1)</p>
+
+                            <h2>Animation</h2>
+                            <p>Using the drawImage method of HTML canvas and JavaScript to make the animation of the game character and items. All objects needed to be calculated precisely for their coordinate positions and the cropping start points, also the cropping of their height and width on canvas.</p>
+
+                        <div class="row align-items-end">
+                            <div class="col-4">
+                                <div class="_t-center">
+                                    <img src="./img/agentR/a.gif" alt="">
+                                    <img src="./img/agentR/p.gif" alt="">
+                                    <p>Walk</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="_t-center">
+                                    <img src="./img/agentR/r-stop.gif" alt="">
+                                    <img src="./img/agentR/p-stop.gif" alt="">
+                                    <p>Waiting for the board set</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="_t-center">
+                                    <img src="./img/agentR/r-jump.gif" alt="">
+                                    <img src="./img/agentR/p-jump.gif" alt="">
+                                    <p>Jump</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="agentR__sprite">
+                            <p>All the animation in the game uses this css sprite.</p>
+                            <img class="_img-sprite" src="./img/agentR/sprite.png" alt="sprite">
+                        </div>
+                                    
+                        
                 </div>
             </div>
         </div>
