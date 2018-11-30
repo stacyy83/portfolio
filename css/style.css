@@ -140,8 +140,7 @@ a {
     bottom: 0;
     right: 0; }
   .header .header__logo {
-    width: 150px;
-    height: 150px;
+    height: 230px;
     margin: 5% 0; }
   .header .header__title {
     display: block;
@@ -161,6 +160,10 @@ a {
         -webkit-transition-duration: .4s;
         -o-transition-duration: .4s;
         transition-duration: .4s; }
+
+@media screen and (max-width: 768px) {
+  .header .header__logo {
+    height: 140px; } }
 
 .work {
   width: 100%; }
