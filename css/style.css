@@ -212,13 +212,13 @@ a {
     padding: 40% 0;
     text-align: center; }
     .work .work__item-content--i {
-      background-image: url(../img/illustrate/project3.jpg);
-      background-size: contain;
+      background-image: url(../img/illustrate/logo.jpg);
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%; }
     .work .work__item-content--R {
-      background-image: url(../img/agentR/icon.png);
-      background-size: contain;
+      background-image: url(../img/agentR/icon.jpg);
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%; }
     .work .work__item-content--h {
@@ -316,10 +316,6 @@ a {
 .illustrate ._i-p {
   line-height: 26px; }
 
-.company a {
-  display: inline-block;
-  color: #F7A3A3; }
-
 .company h2 {
   display: inline-block; }
 
@@ -334,6 +330,19 @@ a {
   height: 190px;
   max-width: 360px;
   margin-top: 50px; }
+
+.company .company__link {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #F7A3A3;
+  color: #F7A3A3;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 15px 20px;
+  border-radius: 20px; }
+  .company .company__link:hover {
+    color: #ffffff;
+    background-color: #F7A3A3; }
 
 .arithmetic img {
   height: 360px;

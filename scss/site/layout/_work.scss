@@ -52,14 +52,14 @@
         text-align: center;
         // border: 2px solid rgba($color: #FCDFDF, $alpha: 0.5);
         &--i{
-            background-image: url(../img/illustrate/project3.jpg);
-            background-size: contain;
+            background-image: url(../img/illustrate/logo.jpg);
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
         }
         &--R{
-            background-image: url(../img/agentR/icon.png);
-            background-size: contain;
+            background-image: url(../img/agentR/icon.jpg);
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
         }
