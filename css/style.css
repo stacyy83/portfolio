@@ -344,6 +344,14 @@ a {
     color: #ffffff;
     background-color: #F7A3A3; }
 
+.company .company__gif p {
+  margin-top: 10px; }
+
+.company .company__video {
+  margin-top: 40px; }
+  .company .company__video p {
+    margin-top: 10px; }
+
 .arithmetic img {
   height: 360px;
   margin-bottom: 100px; }
@@ -354,7 +362,10 @@ a {
   margin-top: 20px !important; }
 
 .comeon li p {
-  margin: 10px 0 25px 0; }
+  margin: 15px 0 25px 0; }
 
 .comeon img {
   height: 350px; }
+
+.comeon ol p {
+  margin: 15px 0 25px 0; }
