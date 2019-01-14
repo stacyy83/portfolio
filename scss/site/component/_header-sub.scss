@@ -2,11 +2,27 @@
     text-align: center;
     background-color: rgba($color: #FCDFDF, $alpha: 0.5);
     padding-top: 62px;
+    .container{
+        padding: 80px 0;
+    }
     .header-sub__title{
-        padding: 100px 0;
         font-style: italic;
         color: #F7A3A3;
         font-size: 3rem;
         text-transform: uppercase;
+        padding-bottom: 20px
     }
+    a{
+        color: #ffffff;
+        font-size: 15px;
+        background-color: #F7A3A3;
+        padding: 10px 15px;
+        border-radius: 50px;
+        &:hover{
+            color: #F7A3A3;
+            background-color: #ffffff;
+            border: 1px solid #F7A3A3;
+        }
+    }
+    
 }
