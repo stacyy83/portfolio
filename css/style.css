@@ -298,21 +298,53 @@ a {
   margin: 5px 0 10px 0; }
 
 .agentR ._img-character {
-  max-width: 175px;
-  height: 200px; }
+  max-width: 175px; }
+
+.agentR .agentR__character div {
+  text-align: center; }
 
 .agentR ._img-sprite {
-  max-width: 505px;
+  max-width: 100%;
   margin-top: 30px; }
 
 .agentR ._img-draft {
   height: 375px; }
+
+.agentR ._img_100 {
+  width: 100%; }
 
 .agentR .agentR__sprite {
   margin-top: 100px; }
 
 .agentR .agentR__video {
   margin-top: 30px; }
+
+.agentR .agnetR__link {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .agentR iframe {
+    display: none; }
+  .agentR .agnetR__link {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #F7A3A3;
+    color: #F7A3A3;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 20px; }
+    .agentR .agnetR__link:hover {
+      color: #ffffff;
+      background-color: #F7A3A3; }
+  .agentR ._img-character {
+    max-width: none;
+    max-height: 100%; }
+  .agentR .agentR__character {
+    margin: 20px 0; }
+  .agentR .agentR__characterGIF {
+    margin-top: 30px; }
+    .agentR .agentR__characterGIF > div {
+      margin-top: 10px; } }
 
 .illustrate ._i-img {
   max-width: 610px;
