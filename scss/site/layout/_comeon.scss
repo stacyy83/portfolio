@@ -6,9 +6,17 @@
         margin: 15px 0 25px 0;
     }
     img{
-        height: 350px;
+        // height: 350px;
+        max-width: 60%;
     }
     ol p{
         margin: 15px 0 25px 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .comeon{
+        img{
+            max-width: 100%;
+        }
     }
 }
