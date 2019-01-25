@@ -310,8 +310,8 @@ a {
 .agentR ._img-draft {
   height: 375px; }
 
-.agentR ._img_100 {
-  width: 100%; }
+.agentR ._img__100 {
+  max-width: 100%; }
 
 .agentR .agentR__sprite {
   margin-top: 100px; }
