@@ -17,10 +17,16 @@
     }
     ._img-character{
         max-width: 175px;
-        height: 200px;
+        //height: 200px;
+    }
+    .agentR__character{
+        div{
+            text-align: center;
+        }
     }
     ._img-sprite{
-       max-width: 505px;
+       //max-width: 505px;
+       max-width: 100%;
        margin-top: 30px;
     }
     ._img-draft{
@@ -31,5 +37,25 @@
     }
     .agentR__video{
         margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .agentR{
+        // iframe{
+        //     display: none;
+        // }
+        ._img-character{
+            max-width: none;
+            max-height: 100%;
+        }
+        .agentR__character{
+            margin: 20px 0;
+        }
+        .agentR__characterGIF{
+            margin-top: 30px;
+            >div{
+                margin-top: 10px;
+            }
+        }
     }
 }
