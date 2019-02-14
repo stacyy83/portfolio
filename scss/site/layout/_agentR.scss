@@ -38,7 +38,11 @@
     .agentR__video{
         margin-top: 30px;
     }
+    ._img-overview{
+        padding: 50px;
+    }
 }
+
 @media screen and (max-width: 768px){
     .agentR{
         // iframe{
@@ -56,6 +60,9 @@
             >div{
                 margin-top: 10px;
             }
+        }
+        ._img-overview{
+            padding: 0px;
         }
     }
 }

@@ -35,6 +35,17 @@ a{
     display: none;
 }
 
+._mb50{
+    margin-bottom: 50px;
+}
+._mb20{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 991px){
+    ._mbphone-30{
+        margin-bottom: 30px;
+    }
+}
 @media screen and (max-width: 768px){
     iframe{
         display: none;
@@ -53,4 +64,5 @@ a{
         //     background-color: #F7A3A3;
         // }
     }
+    
 }

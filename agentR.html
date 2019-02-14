@@ -42,8 +42,15 @@
             <!-- Overview -->
             <div class="content__section">
                 <div class="container">
-                    <h2>Overview</h2>
-                    <p>Agent R is a web game that can be controlled by an  app on the smartphone. It allows two players to play and contains Somatosensory interactive technology to control the slope of the board in the game in order to allow the character to consistently move forward.</p>
+                    <div class="row">
+                        <div class="col-lg-4 _mb20">
+                            <h2>Overview</h2>
+                            <p>Agent R is a web game that can be controlled by an  app on the smartphone. It allows two players to play and contains Somatosensory interactive technology to control the slope of the board in the game in order to allow the character to consistently move forward.</p>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1">
+                            <img class="img__100 _img-overview" src="./img/agentR/overview.png" alt="overview">
+                        </div>
+                    </div> 
                 </div>
             </div>
             <!-- Role -->
@@ -59,24 +66,26 @@
                     <h2>Motivation</h2>
                     <ol>
                         <li>Interested in somatosensory interactive technology.</li>
-                        <li>Inspired by a web game called Super Sync Sports,  which was  created by Google.</li>
-                    </ol>
-                    <p>During that  time, we  were inspired by the web game  entitled Super Sync Sports,  which was created  by Google. It is a web game in which  players can simultaneously enter  the website on a smartphone and computer,  then play the game together by using their own phone in order to control their character within the game.  Furthermore, somatosensory interactive technology is an innovative technology for us. Therefore, we want to collate  these ideas together, thus creating a web game that contains somatosensory interaction.</p>
-                </div>
-            </div>
-            <!-- Ideation -->
-            <div class="content__section">
-                <div class="container _line-t">
-                    <h2>Ideation</h2>
-                    <ol>
+                        <li>Inspired by a web game called SuperSyncSports,which was created by Google.</li>
                         <li>Replace the keyboard with the phone.</li>
-                        <li>Wireless control of the game character by using the app on a smartphone.</li>
-                        <li>Combine different platforms (web on a browser and an application on a smartphone ) to enhance the challenge of our project.</li>
                     </ol>
+                    <p>During that time, we were inspired by the web game entitled Super Sync Sports, which was created by Google. It is a web game in which players can simultaneously enter the website on a smartphone and computer, then play the game together by using their own phone
+                        in order to control their character within the game. Furthermore, somatosensory interactive technology is an innovative technology for us. Therefore, we want to collate these ideas together, thus creating a web game that contains somatosensory interaction.
+                        </p>
                     <div class="agentR__video">
                         <iframe src="https://player.vimeo.com/video/303448714" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <a class="videoLink" href="https://vimeo.com/303448714" target="_blank">View the video</a>
                     </div>
+                </div>
+            </div>
+            <!-- Why use a smartphone app to control the game? -->
+            <div class="content__section">
+                <div class="container _line-t">
+                    <h2>Why use a smartphone app to control the game?</h2>
+                    <em>1. To avoid issues that can occur with browsers</em>
+                    <p>Our research showed that players often close browsers or go back to a previous page accidentally while playing games. In order to address this problem, we came up with the idea of using a smartphone app to control the game, allowing players to access the same features the would have in the browser but without the associated risks.</p>
+                    <em>2. To enhance the challenge of our project</em>
+                    <p>We wanted to combine different platforms (the Web through browsers and an application on a smartphone) to create a new, unique gaming experience and more possibilities through this blend. Also, this decision forced us to embrace the challenge of improving our skills across a greater range of disciplines.</p>
                 </div>
             </div>
             <!-- Game Process -->
@@ -98,13 +107,46 @@
                     </div>
                 </div>
             </div>
+            <!-- How it works? -->
+            <div class="content__section">
+                <div class="container _line-t">
+                    <h2>How it works?</h2>
+                    <p>The website and the app connect through the use of a database. For the website, we used PHP to help us read and write the values in the database. We also used this technique for the verification process on the app. For the game's start-up, we used Java JDBC to build a server on a local machine in order to improve the speed of passing values, and used a socket to send the values that we needed from the app to server, allowing the server to write the values in the database. Finally, we also used the server to read the values in the database, then pass them to the app on smartphone via socket.
+                    </p>
+                </div>
+            </div>
             <!-- Instructions for Play -->
             <div class="content__section">
                 <div class="container _line-t">
                     <h2>Instructions for Play</h2>
-                    <p class="_mb">Players are required to  control the board rotation between each pillar by controlling the gradient of their phone in order to allow  the game character to continuously  move forward. Since the frame will  consistently move to the left,  if the game character does not  keep moving forward, they will lose their health points when they hit the left edge of the frame. The game is effectively over when the health points become  zero.</p>
-                    <p class="_mb">In 1- player mode, when the game is over, it will  reveal how many pillars the player has passed in this game and record the total score. Moreover, players can see the top score and the player’s name  at the end.</p>
-                    <p>In 2- player  mode, players can control their character to  gain the coins during the game in order to  purchase special items. Each item has a different effect which can benefit themselves or harm others. Once the game is over, the character whose health points  reach zero will lose the game.</p>
+                    <p class="_mb50">Players are required to  control the board rotation between each pillar by controlling the gradient of their phone in order to allow  the game character to continuously  move forward. Since the frame will  consistently move to the left,  if the game character does not  keep moving forward, they will lose their health points when they hit the left edge of the frame. The game is effectively over when the health points become  zero.</p>
+                    <div>
+                        <img class="img__100" src="./img/agentR/play.png" alt="play">
+                    </div>
+                    
+                    <p style="margin: 50px 0">In 1- player mode, when the game is over, it will  reveal how many pillars the player has passed in this game and record the total score. Moreover, players can see the top score and the player’s name  at the end.</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 _mbphone-30">
+                            <img class="img__100" src="./img/agentR/oneplayer.png">
+                            <p>1-player mode (Web)</p>
+                        </div> 
+                        <div class="col-lg-5 offset-lg-1">
+                            <img class="img__100" src="./img/agentR/player1.png">
+                            <p>1-player mode (App)</p>
+                        </div>   
+                    </div>
+                    
+                    <p style="margin: 50px 0">In 2- player  mode, players can control their character to  gain the coins during the game in order to  purchase special items. Each item has a different effect which can benefit themselves or harm others. Once the game is over, the character whose health points  reach zero will lose the game.</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 _mbphone-30">
+                            <img class="img__100" src="./img/agentR/twoplayers.png">
+                            <p>2-player mode (Web)</p>
+                        </div> 
+                        <div class="col-lg-5 offset-lg-1">
+                            <img class="img__100" src="./img/agentR/player2.png">
+                            <p>2-player mode (App)</p>
+                        </div>   
+                    </div>
                     <div class="agentR__video">
                         <iframe src="https://player.vimeo.com/video/303108320" width="640" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <a class="videoLink" href="https://vimeo.com/303108320" target="_blank">View the video</a>
@@ -162,39 +204,63 @@
             <!-- Animation -->
             <div class="content__section">
                 <div class="container _line-t">
+                    <h2>Animation</h2>
+                    <p>Using the drawImage method of HTML canvas and JavaScript to make the animation of the game character and items. All objects needed to be calculated precisely for their coordinate positions and the cropping start points, also the cropping of their height and width on canvas.</p>
 
-                            <h2>Animation</h2>
-                            <p>Using the drawImage method of HTML canvas and JavaScript to make the animation of the game character and items. All objects needed to be calculated precisely for their coordinate positions and the cropping start points, also the cropping of their height and width on canvas.</p>
-
-                        <div class="agentR__characterGIF row align-items-end">
-                            <div class="col-md-4">
-                                <div class="_t-center">
-                                    <img src="./img/agentR/a.gif" alt="">
-                                    <img src="./img/agentR/p.gif" alt="">
-                                    <p>Walk</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="_t-center">
-                                    <img src="./img/agentR/r-stop.gif" alt="">
-                                    <img src="./img/agentR/p-stop.gif" alt="">
-                                    <p>Waiting for the board set</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="_t-center">
-                                    <img src="./img/agentR/r-jump.gif" alt="">
-                                    <img src="./img/agentR/p-jump.gif" alt="">
-                                    <p>Jump</p>
-                                </div>
+                    <div class="agentR__characterGIF row align-items-end">
+                        <div class="col-md-4">
+                            <div class="_t-center">
+                                <img src="./img/agentR/a.gif" alt="">
+                                <img src="./img/agentR/p.gif" alt="">
+                                <p>Walk</p>
                             </div>
                         </div>
-                        <div class="agentR__sprite">
-                            <p>All the animation in the game uses this css sprite.</p>
-                            <img class="_img-sprite" src="./img/agentR/sprite.png" alt="sprite">
+                        <div class="col-md-4">
+                            <div class="_t-center">
+                                <img src="./img/agentR/r-stop.gif" alt="">
+                                <img src="./img/agentR/p-stop.gif" alt="">
+                                <p>Waiting for the board set</p>
+                            </div>
                         </div>
-                                    
-                        
+                        <div class="col-md-4">
+                            <div class="_t-center">
+                                <img src="./img/agentR/r-jump.gif" alt="">
+                                <img src="./img/agentR/p-jump.gif" alt="">
+                                <p>Jump</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agentR__sprite">
+                        <p>All the animation in the game uses this css sprite.</p>
+                        <img class="_img-sprite" src="./img/agentR/sprite.png" alt="sprite">
+                    </div>
+                </div>
+            </div>
+            <!-- Problems and solutions -->
+            <div class="content__section">
+                <div class="container _line-t">
+                    <h2>Problems and solutions</h2>
+                    <em>How does the app pass values to the website quickly and smoothly?</em>
+                    <p>Initially, we wanted to set up our server and website on a cloud platform and use HTTP POST to pass values. However, we faced the following problems:</p>
+                    <ol>
+                        <li>It missed some values and was unstable when the connection weak.</li>
+                        <li>It put a heavy burden on the server.</li>
+                        <li>It was hard to maintain the server on a cloud platform.</li>
+                        <li>Databases and websites on free cloud platforms can crash easily.</li>
+                    </ol>
+                    <p>In order to provide smooth and immediate interaction to players, the most important thing in our project was the quality and speed of the passing values between the devices. With this in mind, we set our server on a local machine, using a socket and Java JDBC as the tool for passing values from the database. There were two advantages to this: First, we could maintain the server more easily, and second, the combination of JDBC and the socket provided a stable connection that improved the speed at which values were passed.</p>
+                </div>
+            </div>
+            <!-- Future Improvements -->
+            <div class="content__section">
+                <div class="container _line-t">
+                    <h2>Future Improvements</h2>
+                    <ol>
+                        <li>Enhance the stability of the connection between the devices.</li>
+                        <li>Allow players to play the game in different domains.</li>
+                        <li>Enable more than two players to play the game at the same time.</li>
+                        <li>Integrate new technology.</li>
+                    </ol>
                 </div>
             </div>
         </div>
