@@ -44,10 +44,34 @@
             margin: 0 10px;
             color: #707070;
             transition-duration: .4s;
+            border-bottom: 0px solid #303030;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                display: block;
+                left: 0;
+                bottom: -5px;
+                background: #303030;
+                width: 0%;
+                height: 1px;
+            }
             &:hover{
-                text-decoration: underline;
-                font-size: 14px;
+                font-weight: bold; 
+                color: #303030;
+                
                 transition-duration: .4s;
+                &::before{
+                    transition: 0.4s;
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    left: 0;
+                    bottom: -5px;
+                    background: #303030;
+                    width: 100%;
+                    height: 1px;
+                }
             }
         }
     }
