@@ -13,4 +13,8 @@ $(function(){
     //headroom套件
     $("#nav").headroom();
 
+    $("li").mouseover(function(){
+        console.log('hover');
+    });
+
 });

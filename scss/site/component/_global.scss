@@ -8,11 +8,19 @@ html{
 }
 ul li{
     list-style-type: none;
+    color: #707070;
 }
 a{
     text-decoration: none;
     cursor: pointer;
+    font-style: normal;
+    color: #F7A3A3;
+    font-weight: 600;
+    font-size: 18px;
 }
+canvas {
+    display: block;
+  }
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -30,6 +38,12 @@ a{
 .img__100{
     max-width: 100%;
 }
+.img__80{
+    max-width: 80%;
+}
+.img_last{
+    margin-bottom: 50px;
+}
 
 .videoLink{
     display: none;
@@ -40,6 +54,23 @@ a{
 }
 ._mb20{
     margin-bottom: 20px;
+}
+._link{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #F7A3A3;
+    color: #F7A3A3;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    &:hover{
+        color: #ffffff;
+        background-color: #F7A3A3;
+    }
+}
+._text-center{
+    text-align: center;
 }
 @media screen and (max-width: 991px){
     ._mbphone-30{

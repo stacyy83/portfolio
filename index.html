@@ -11,25 +11,43 @@
     <title>| Stacy Yuan |</title>
     <script src="js/lib/jquery-3.2.1/jquery.min.js"></script>
     <script src="js/lib/jquery-3.2.1/jquery-migrate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="js/lib/bootstrap/bootstrap.min.js"></script>
     <script src="js/lib/scrollmagic/TweenMax.min.js"></script>
     <script src="js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script src="js/lib/scrollmagic/animation.gsap.min.js"></script>
     <script src="js/lib/scrollmagic/debug.addIndicators.min.js"></script>
     <script src="js/lib/smooth-scroll-1.4.6/smooth-scroll.js"></script>
+    
     <script src="js/site/layout.js"></script>
+    <!-- <style>
+        canvas {
+           position:absolute;
+           top:0;
+           left:0;
+           width:100%;
+           height:100%;
+           z-index:-1;
+        }
+    </style> -->
+    
 </head>
 <body>
+    
     <div class="wrapper">
         <!-- Heaer -->
         <header class="header">
             <div class="headerBg-block">
                 <div class="headerBg scroll__bgn"></div>
             </div>
+            <!-- <script src="js/site/sketch.js"></script>
+            <div id="canvasContainer">
+                <canvas data-processing-sources="rectangles.pde"></canvas>
+            </div> -->
             <div class="header__content">
                 <img class="header__logo" src="./img/stacy.jpg" alt="logo">
                 <h2 class="header__title">
-                    <!-- I’m STACY YUAN <br/> -->
                     WELCOME TO MY PLACE!
                 </h2>
                 <div class="header__menu">
@@ -43,7 +61,106 @@
         <div id="work" class="work">
             <div class="container">
                 <ul class="work__list row no-gutters">
-                    <li class="work__item col-12 col-sm-6 col-md-4">
+                    <!-- <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./arithmetic.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text _h-35">
+                                    <h3>Arithmetic <br/> Exercise</h3>
+                                    <p>C# Project</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--a"></div>
+                        </a>
+                    </li> -->
+                    <!-- <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./hands.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Hands</h3>
+                                    <p>Interactive Media Game</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--h"></div>
+                        </a>
+                    </li> -->
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./life-vending-machine.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Life Vending Machine</h3>
+                                    <p>Physical computing</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--life"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./boom-bap-box.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text work__item-text--2">
+                                    <h3>Boom Bap Box</h3>
+                                    <p>Physical computing<br> P5.js</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--box"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./solo-performance.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Pixel</h3>
+                                    <p>Max MSP</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--pixel"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./work-bitch.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Work Bitch</h3>
+                                    <p>Stop Motion Animation</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--bitch"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./tangerine.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Life of Tangerine</h3>
+                                    <p>Critical Object</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--tangerine"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./portrait.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Portrait</h3>
+                                    <p>Processing</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--portrait"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
+                        <a href="./company-project.html">
+                            <div class="work__item-cover">
+                                <div class="work__item-text">
+                                    <h3>Company Project</h3>
+                                    <p>Front-End</p>
+                                </div>
+                            </div>
+                            <div class="work__item-content work__item-content--company"></div>
+                        </a>
+                    </li>
+                    <li class="work__item col-12 col-md-6 col-lg-4">
                         <a href="./agentR.html">
                             <div class="work__item-cover">
                                 <div class="work__item-text">
@@ -54,40 +171,7 @@
                             <div class="work__item-content work__item-content--R"></div>
                         </a>
                     </li>
-                    <li class="work__item col-12 col-sm-6 col-md-4">
-                        <a href="./arithmetic.html">
-                            <div class="work__item-cover">
-                                <div class="work__item-text _h-35">
-                                    <h3>Arithmetic <br/> Exercise</h3>
-                                    <p>C# Project</p>
-                                </div>
-                            </div>
-                            <div class="work__item-content work__item-content--a"></div>
-                        </a>
-                    </li>
-                    <li class="work__item col-12 col-sm-6 col-md-4">
-                        <a href="./hands.html">
-                            <div class="work__item-cover">
-                                <div class="work__item-text">
-                                    <h3>Hands</h3>
-                                    <p>Interactive Media Game</p>
-                                </div>
-                            </div>
-                            <div class="work__item-content work__item-content--h"></div>
-                        </a>
-                    </li>
-                    <li class="work__item col-12 col-sm-6 col-md-4">
-                        <a href="./company-project.html">
-                            <div class="work__item-cover">
-                                <div class="work__item-text _h-35">
-                                    <h3>Company <br/>Project</h3>
-                                    <p>Front-End</p>
-                                </div>
-                            </div>
-                            <div class="work__item-content work__item-content--company"></div>
-                        </a>
-                    </li>
-                    <li class="work__item col-12 col-sm-6 col-md-4 ">
+                    <li class="work__item col-12 col-md-6 col-lg-4 ">
                         <a href="./illustrate.html">
                             <div class="work__item-cover">
                                 <div class="work__item-text">
@@ -97,7 +181,7 @@
                             <div class="work__item-content work__item-content--i"></div>
                         </a>
                     </li>
-                    <li class="work__item col-12 col-sm-6 col-md-4">
+                    <!-- <li class="work__item col-12 col-md-6 col-lg-4">
                         <a href="./comeon5678.html">
                             <div class="work__item-cover">
                                 <div class="work__item-text">
@@ -107,7 +191,7 @@
                             </div>
                             <div class="work__item-content work__item-content--c5678"></div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -118,7 +202,7 @@
                     <img class="about__img" src="./img/me.JPG" alt="about_img">
                     <div class="about__text">
                         <h3>ABOUT ME</h3>
-                        <p>Hello, I’m Stacy Yuan.<br/>
+                        <p>Hello, I am Stacy Yuan.<br/>
                         I love technology and art and love to try new things! </p>
                     </div>
                 </div>
