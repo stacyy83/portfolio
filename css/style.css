@@ -466,7 +466,7 @@ canvas {
     height: 240px; }
   .about .about__text {
     display: inline-block;
-    width: 50%;
+    width: 35%;
     margin-left: 60px;
     text-align: left; }
     .about .about__text h3 {
