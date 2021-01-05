@@ -134,7 +134,34 @@
             background-position: 40% 50%;
             box-shadow: 10px 10px 12px #333333a8;
         }
-
+        &--inseason{
+            background-image: url(../img/inseason/home.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 40% 50%;
+            box-shadow: 10px 10px 12px #333333a8;
+        }
+        &--emojis{
+            background-image: url(../img/emojis/logo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 40% 50%;
+            box-shadow: 10px 10px 12px #333333a8;
+        }
+        &--dream{
+            background-image: url(../img/dream/logo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            box-shadow: 10px 10px 12px #333333a8;
+        }
+        &--bar{
+            background-image: url(../img/bar/logo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 47% 50%;
+            box-shadow: 10px 10px 12px #333333a8;
+        }
     }
 }
 

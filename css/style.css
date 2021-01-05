@@ -411,6 +411,34 @@ canvas {
       background-position: 40% 50%;
       -webkit-box-shadow: 10px 10px 12px #333333a8;
       box-shadow: 10px 10px 12px #333333a8; }
+    .work .work__item-content--inseason {
+      background-image: url(../img/inseason/home.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 40% 50%;
+      -webkit-box-shadow: 10px 10px 12px #333333a8;
+      box-shadow: 10px 10px 12px #333333a8; }
+    .work .work__item-content--emojis {
+      background-image: url(../img/emojis/logo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 40% 50%;
+      -webkit-box-shadow: 10px 10px 12px #333333a8;
+      box-shadow: 10px 10px 12px #333333a8; }
+    .work .work__item-content--dream {
+      background-image: url(../img/dream/logo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      -webkit-box-shadow: 10px 10px 12px #333333a8;
+      box-shadow: 10px 10px 12px #333333a8; }
+    .work .work__item-content--bar {
+      background-image: url(../img/bar/logo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 47% 50%;
+      -webkit-box-shadow: 10px 10px 12px #333333a8;
+      box-shadow: 10px 10px 12px #333333a8; }
 
 @media screen and (max-width: 1200px) {
   .work .work__item-text h3 {
